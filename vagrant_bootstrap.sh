@@ -13,6 +13,6 @@ sudo chsh -s `which zsh`
 
 cd /vagrant/angular/
 sudo npm install -g bower grunt-cli
-npm install
 bower install --allow-root
+npm install
 grunt build
